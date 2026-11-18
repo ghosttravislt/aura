@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
+@import url("https://static-serve.bajwanetwork.com/fontawesome-pro-6.5.1-web/css/all.min.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+
+body,
+input,
+select,
+textarea,
+button {
+  /* background-color: black; */
+  font-family: "Sora", sans-serif;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+
+.container {
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+  /* border: 2px solid red; */
+  padding: 0 20px;
+}
+
+
+:root {
+  /* Text */
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: 1.875rem;
+  --text-4xl: 2.25rem;
+  --text-5xl: 3rem;
+  --text-6xl: 3.75rem;
+  --text-7xl: 5.75rem;
+  --text-8xl: 7.95rem;
+
+  /* Colours */
+  --clr-gray-50: oklch(98.5% 0.002 247.839);
+  --clr-gray-100: oklch(96.7% 0.003 264.542);
+  --clr-gray-200: oklch(92.8% 0.006 264.531);
+  --clr-gray-300: oklch(87.2% 0.01 258.338);
+  --clr-gray-400: oklch(70.7% 0.022 261.325);
+  --clr-gray-500: oklch(55.1% 0.027 264.364);
+  --clr-gray-600: oklch(44.6% 0.03 256.802);
+  --clr-gray-700: oklch(37.3% 0.034 259.733);
+  --clr-gray-800: oklch(27.8% 0.033 256.848);
+  --clr-gray-900: oklch(21% 0.034 264.665);
+  --clr-gray-950: oklch(13% 0.028 261.692);
+
+  /* other colors */
+  --white:#fff;
+
+  /* border radius */
+  --outer-border-radius:20px;
+  --inner-border-radius:15px;
+
+}
+
+@media (max-width: 1300px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1200px) {}
+
+@media (max-width: 992px) {
+  
+}
+
+@media (max-width: 768px) {
+ 
+}
+
+@media (max-width: 576px) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {}
+
+@media (max-width: 320px) {}

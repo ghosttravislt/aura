@@ -1,0 +1,10 @@
+@font-face{
+    font-family: "Logofont";
+    src: url("../../fonts/AmericanCaptain-MdEY.otf");
+}
+
+.logo{
+    font-family: Logofont,sans-serif;
+    color: var(--clr-gray-900);
+    font-size: var(--text-4xl);
+}

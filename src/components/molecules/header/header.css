@@ -1,0 +1,33 @@
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.navLinks{
+    display: flex;
+    gap: 60px;
+}
+
+
+
+@media (max-width: 992px) {
+.navLinks{
+    display: flex;
+    gap: 20px;
+}
+}
+
+@media (max-width: 576px) {
+  .container {
+    width: 100%;
+  }
+  .navLinks{
+    display: none;
+}
+.navbar{
+    justify-content: space-between
+}
+}

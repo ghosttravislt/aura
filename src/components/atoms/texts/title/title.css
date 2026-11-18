@@ -1,0 +1,9 @@
+@font-face{
+    font-family: "Text";
+    src: url("../../../fonts/Nurma-Regular.otf");
+}
+
+.titleStyles{
+    font-size: 2rem;
+    font-family: Text, sans-serif;
+}

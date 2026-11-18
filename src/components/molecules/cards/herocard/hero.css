@@ -1,0 +1,52 @@
+.mainheroContainer{
+    margin-top: 30px;
+    background-image:url("../../../../../public/images/heroimage.jpg");
+    height: 100%;   background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: var(--outer-border-radius);
+    position: relative;
+    /* z-index: -1; */
+}
+
+/* .mainheroContainer::before{
+    content: "";
+    background-color: rgba(0, 0, 0, 0.123);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    border-radius: var(--outer-border-radius);
+    isolation: isolate;
+    z-index: -1;
+} */
+
+.heroSectionContianer{
+    display: flex;
+    flex-direction: column;
+    gap: 52vh;
+    justify-content: space-around;
+    /* border: 2px solid red; */
+}
+
+
+.lowerCardSection{
+    display: flex;
+    align-items:self-end;
+    justify-content: space-between;
+    padding: 10px;
+    /* border: 2px solid red; */
+}
+
+
+@media (max-width: 596px) {
+  .container {
+    width: 100%;
+  }
+  .lowerCardSection{
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    padding: 10px;
+    /* border: 2px solid red; */
+}
+}

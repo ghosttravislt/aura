@@ -1,0 +1,11 @@
+.buttonWithIconsStyles{
+    width: 130px;
+    font-size: 0.95rem;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: var(--inner-border-radius);
+    cursor:pointer;
+}

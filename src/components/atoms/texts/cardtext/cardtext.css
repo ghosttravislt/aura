@@ -1,0 +1,19 @@
+@font-face{
+    font-family: "cardText";
+    src: url("../../../fonts/Nurma-Regular.otf");
+}
+
+.cardtext{
+    font-family: cardText,sans-serif;
+    /* border: 2px solid blue; */
+    margin-top: 20px;
+}
+@media (max-width: 596px) {
+  .container {
+    width: 100%;
+  }
+  .cardtext{
+    font-size: 1rem;
+    width: 100%;
+  }
+}
